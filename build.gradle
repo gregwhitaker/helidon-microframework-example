@@ -19,5 +19,6 @@ repositories {
 }
 
 dependencies {
-    compile 'io.helidon.webserver:helidon-webserver'
+    compile 'io.helidon.webserver:helidon-webserver-bundle'
+    compile 'io.helidon.config:helidon-config-yaml'
 }
