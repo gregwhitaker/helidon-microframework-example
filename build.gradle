@@ -1,11 +1,14 @@
 plugins {
     id 'java'
+    id 'application'
     id "io.spring.dependency-management" version '1.0.6.RELEASE'
+    id 'com.github.hierynomus.license' version '0.14.0'
 }
 
 group = 'com.github.gregwhitaker'
 version = '0.1.0'
 sourceCompatibility = 1.8
+mainClassName = 'helidon.example.Main'
 
 dependencyManagement {
     imports {
@@ -14,11 +17,15 @@ dependencyManagement {
 }
 
 repositories {
-    jcenter()
     mavenCentral()
 }
 
 dependencies {
     compile 'io.helidon.webserver:helidon-webserver-bundle'
     compile 'io.helidon.config:helidon-config-yaml'
+}
+
+license {
+    header rootProject.file('codequality/HEADER')
+    strictCheck true
 }

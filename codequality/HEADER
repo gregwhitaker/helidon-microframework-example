@@ -1,13 +1,3 @@
-# helidon-microframework-example
-An example of creating a microservice using Oracle's [Helidon Microframework](https://helidon.io/#/).
-
-## Running the Example
-
-
-## Bugs and Feedback
-For bugs, questions and discussions please use the [Github Issues](https://github.com/gregwhitaker/helidon-microframework-example/issues).
-
-## License
 Copyright 2018 Greg Whitaker
 
 Licensed under the Apache License, Version 2.0 (the "License");
