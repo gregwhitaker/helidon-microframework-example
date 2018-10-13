@@ -1,4 +1,5 @@
 # helidon-microframework-example
+[![Build Status](https://travis-ci.org/gregwhitaker/helidon-microframework-example.svg?branch=master)](https://travis-ci.org/gregwhitaker/helidon-microframework-example)
 
 An example of creating a microservice using Oracle's [Helidon Microframework](https://helidon.io/#/).
 
